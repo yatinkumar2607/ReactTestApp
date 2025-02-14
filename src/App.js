@@ -13,9 +13,6 @@ const LoginButton = () => {
     return (
       <div>
         <p>Welcome, {auth.user.profile.name}</p>
-        <p>Welcome, {auth.user.profile.name}</p>
-        <p>Welcome, {auth.user.profile.name}</p>
-        <p>Welcome, {auth.user.profile.name}</p>
         <button onClick={() => auth.signoutRedirect()}>Logout</button>
       </div>
     );
